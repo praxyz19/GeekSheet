@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebD-Selection-Task-1</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="logo">
+            <img src="images/geekheven.png" alt="">
+            <h1>DSA GeekSheet</h1>
+        </div>
+
+        <div class="search">
+            <input placeholder="Search Que" type="text">
+            <button type="submit">Go</button>
+        </div>
+        <div class="media-q-1060">
+            <div class="bookmarking">
+                <a href="#bottom">
+                    <i class="fa-solid fa-book-bookmark"></i>
+                    <p>BookMarked</p>
+                </a>
+            </div>
+
+            <div class="theme-btn">
+                <p> LIGHT THEME :</p>
+                <label class="switch">
+                    <input class="inp" type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+
+
+        <div class="ham">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </div>
+
+    </section>
+    <section class="main">
+        <div class="main-container"> 
+
+            <div class="progress-bar">
+                <label for="volume">Progress</label>
+                <input type="range" id="progress" name="volume" min="0" max="100" />
+                <p><span class="one">0</span>of<span class="two">25</span></p>
+            </div>
+
+            <div class="accordion">
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="bookmark-sec">
+        <h2>Book-Marked Questions</h2>
+
+        <div class="bookmark-div" id="bottom">
+            <table>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
