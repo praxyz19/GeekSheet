@@ -1,4 +1,4 @@
-Name: Shashank Uday Patil
-Enrollment Number: IIT2022226
-Whatsapp Number: 9307257942
+Name: Prakruti Mahaveer Shetti
+Enrollment Number: IEC2022128
+Whatsapp Number: 9322746803
 Preferred Bucket: Frontend
